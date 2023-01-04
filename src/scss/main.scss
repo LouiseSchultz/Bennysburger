@@ -1,5 +1,50 @@
 // This is where you can import other stylesheets or write your scss code
 
+
+
+// Formular
+.formular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+h2{
+    font-size: 3rem;
+    margin: 1rem;
+    font-weight: 300;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+input {
+  width: 15rem;
+  height: 1.5rem;
+  margin-top: 0.3rem;
+}
+select {
+  width: 15.5rem;
+  height: 2rem;
+  margin-top: 0.3rem;
+}
+textarea {
+  width: 14.5rem;
+  height: 5rem;
+  font-size: 1rem;
+  padding: .5rem;
+  margin-top: 0.3rem;
+}
+
+// Footer
+footer {
+  background-color: black;
+  height: 2rem;
+  color: lightgray;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0.5rem;
+}
+
 .backround {
     height: 90vh;
     width: 100vw;
@@ -31,7 +76,7 @@
       color: white;
       font-size: 3rem;
     }
-    .card {>>>>>>> Test-1
+    .card {
       background-color: white;
       width: 250px;
       height: 440px;
@@ -236,3 +281,4 @@ header {
 
     }
 }
+
