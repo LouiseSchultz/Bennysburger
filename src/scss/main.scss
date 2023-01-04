@@ -1,1 +1,115 @@
 // This is where you can import other stylesheets or write your scss code
+.backround {
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(97, 49, 146);
+  
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+  
+    .card2 {
+      height: 500px;
+      width: 250px;
+      background-color: white;
+    }
+  
+    .card4 {
+      height: 600px;
+      width: 250px;
+      background-color: white;
+    }
+  
+    .headline {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3rem;
+    }
+    .card {
+      background-color: white;
+      width: 250px;
+      height: 440px;
+      margin: 40px;
+      border: 1px solid black;
+    }
+    .card-image {
+      height: 200px;
+      margin-bottom: 15px;
+      background-size: cover;
+    }
+  
+    .card-1 {
+      background-image: url("../images/dan-gold-E6HjQaB7UEA-unsplash.jpg");
+    }
+    .card-2 {
+      background-image: url("../images/jon-tyson-_j-sUa8lHy4-unsplash.jpg");
+      height: 250px;
+      border: 1px solid black;
+  
+    }
+    .card-3 {
+      background-image: url("../images/mae-mu-I7A_pHLcQK8-unsplash.jpg");
+    }
+    .card-4 {
+      background-image: url("../images/zac-cain-jLzukAj_PhQ-unsplash.jpg");
+      height: 300px;
+      border: 1px solid black;
+  
+    }
+    .card h2 {
+      text-align: center;
+      font-size: 20px;
+      padding-left: 7px;
+    }
+    .card2 h2 {
+      text-align: center;
+      font-size: 20px;
+      padding-left: 7px;
+    }
+    .card4 h2 {
+      text-align: center;
+      font-size: 20px;
+      padding-left: 7px;
+    }
+    .card p {
+      padding: 7px;
+    }
+    .card2 p {
+      padding: 7px;
+    }
+    .card4 p {
+      padding: 7px;
+    }
+    .card a {
+      color: purple;
+      text-decoration: none;
+      margin-left: 50px;
+      padding: 10px;
+      text-align: center;
+      align-items: center;
+      border: 1px solid purple;
+    }
+    .card2 a {
+      color: purple;
+      text-decoration: none;
+      margin-left: 50px;
+      padding: 10px;
+      text-align: center;
+      align-items: center;
+      border: 1px solid purple;
+    }
+    .card4 a {
+      color: purple;
+      text-decoration: none;
+      margin-left: 50px;
+      padding: 10px;
+      text-align: center;
+      align-items: center;
+      border: 1px solid purple;
+    }
+}
